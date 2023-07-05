@@ -27,4 +27,9 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene(nomedaCena);
 
     }
+    public void QuitGame()
+    {
+        //Função do botão sair
+        UnityEditor.EditorApplication.isPlaying = false;
+    }
 }
